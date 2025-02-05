@@ -1,0 +1,332 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    flex: 1 0 auto;
+}
+
+footer {
+    flex-shrink: 0;
+    background-color: #ffcccb; 
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border-top: 1px solid #e7e7e7;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer a {
+    margin-right: 15px;
+    color: #ff4500; 
+    text-decoration: none;
+}
+
+footer a:last-child {
+    margin-right: 0;
+}
+
+header {
+    background-color: #ffcccb; /* Light red/pink background */
+    color: #fff;
+    padding: 10px 0;
+    width: 100%;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    height: 40px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    transition: background-color 0.8s ease, transform 0.8s ease;
+}
+
+header .container .logout {
+    text-decoration: none;
+    color: black;
+    transition: background-color 0.8s ease, transform 0.8s ease;
+}
+
+header .container .logout:hover {
+    color: #ff4500;
+    text-decoration: none;
+
+}
+
+header h1 {
+    margin: 0;
+    color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    padding: 10px 0;
+}
+
+header .container nav {
+    margin-left: 20px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333333;
+    font-size: 36px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff4500; /* Orange-red for hover effect */
+
+}
+
+.layover {
+    background: url('../Images/event-image.jpg') no-repeat center center/cover;
+    width: 100%;
+    margin-bottom: 100px;
+    height: 200px;
+    padding: 220px 20px;
+}
+
+.events_container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.intro-text {
+    background-color: #ffe6e6; /* Light red background */
+    padding: 20px 0;
+    text-align: center;
+    height: 400px
+     
+}
+
+.intro-text .container {
+    width: 90%;
+    margin: auto;
+    align-items: center;
+}
+
+.intro-text h2 {
+    margin: 0 0 10px;
+    font-size: 36px;
+    color: #ff4500; /* Orange-red */
+}
+
+.intro-text p {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.intro-text a {
+    color: #ff4500; /* Orange-red */
+    text-decoration: none;
+}
+
+.intro-text a:hover {
+    text-decoration: underline;
+}
+.aya{
+    text-align: center;
+    color: #ff4500
+}
+.form {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #ff4500; /* Orange-red for text */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 50px;
+    width: 100%;
+    background-color: #ffe6e6; /* Light red background */
+}
+h3{
+    font-size: 15px;
+}
+
+.form input, label {
+    width: 40%;
+    height: 30px;
+    margin: 2px 0;
+}
+
+.form button {
+    margin-top: -10px;
+    margin-left: 15px;
+    background: #ffcccb; /* Light red/pink */
+    border-color: #ffcccb;
+    color: #ff4500; /* Orange-red for button text */
+}
+
+.outerbox {
+    background-color: transparent;
+    position: relative;
+}
+
+.Upcoming_Events {
+    text-align: center;
+    height: auto;
+    background-color: #ffcccb; /* Light red/pink */
+}
+
+.Upcoming_Events .container h1 {
+    color: black;
+    font-size: 56px;
+    margin: 35px;
+}
+
+.events-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.events-list li {
+    background: #ffe6e6; /* Light red background */
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.events-list li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.events-list li h2 {
+    margin: 0 0 10px;
+    font-size: 24px;
+    font-variant-caps: normal;
+    color: black;
+}
+
+.events-list li p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: black;
+}
+
+.error {
+    color: red;
+}
+
+.myEvents {
+    background-color: #ffcccb; /* Light red/pink */
+    text-align: center;
+    height: auto;
+}
+
+.specilaBtn {
+    background: transparent;
+    border: none;
+    color: #ff4500; /* Orange-red */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.specilaBtn:hover {
+    background: black;
+    color: #ff4500; /* Orange-red */
+    transform: scale(1.05);
+}
+
+.specilaBtn-delete {
+    background: transparent;
+    border: none;
+    color: red;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.specilaBtn-delete:hover {
+    background: black;
+    color: red;
+    transform: scale(1.05);
+}
+
+/* Modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: lightcyan;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+   
+}
+.modal-content {
+  background-color: #00b3;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: red;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
