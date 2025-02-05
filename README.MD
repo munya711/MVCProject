@@ -8,7 +8,8 @@ NB: instructions for database migration are in the database migration FILE
 
 Prerequisites:
 PHP: Ensure you have PHP installed on your system. XAMPP is a convenient option as it bundles PHP with an Apache web server and MySQL database server.
-Database Setup:
+Database Setup: nb GOTO MIGRATION DATABASE FOLDER
+
 Create a database named event_management_system. You can use a database management tool or your web hosting provider's control panel.
 Edit the config.php file to configure database connection details such as host, username, password, and database name.
 Table Creation:
